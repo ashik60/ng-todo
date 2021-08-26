@@ -1,0 +1,59 @@
+.ToDo {
+  text-align: center;
+  border: 1px solid white;
+  width: 60vw;
+  height: auto;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+  background-color: lightblue;
+  padding-bottom: 60px;
+  margin: 40px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .ToDo {
+    width: 90vw;
+  }
+}
+
+.ToDo-Header {
+  color: black;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 70px auto 30px;
+}
+
+.ToDo-Add {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: #7398ff;
+  border: 1px solid rgb(172, 171, 171);
+  margin: 5px 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.ToDo-Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid rgb(172, 171, 171);
+  margin: 5px 10px;
+  padding-left: 10px;
+}
+
+input:hover,
+input:focus {
+  border-radius: 10px;
+  border: 1px solid rgb(131, 129, 129);
+  outline: none;
+}
